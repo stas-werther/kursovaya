@@ -36,7 +36,8 @@ a {
 }
 
 .is-hidden {
-  display: none !important; /* stylelint-disable-line declaration-no-important */
+  display: none !important;
+  /* stylelint-disable-line declaration-no-important */
 }
 
 .btn-reset {
@@ -104,4 +105,8 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.logo {
+  z-index: 50;
 }
