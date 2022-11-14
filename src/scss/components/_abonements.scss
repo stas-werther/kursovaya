@@ -2,14 +2,13 @@
 
   padding: 100px 0;
   background-color: #E0E0E0;
-  ;
+
 
   &__title {
     font-weight: 300;
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-
     color: #272626;
   }
 
@@ -17,14 +16,17 @@
 
   &__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 34px;
   }
 
   // .abonements__item
 
   &__item {
     max-width: 342px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0px 5px 15px #000000;
+    border-radius: 5px;
   }
 
   // .abonements__item1
@@ -64,7 +66,11 @@
 
   // .abonements__item2
 
-  &__item2 {}
+  &__item2 {
+    padding: 20px 46px;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+  }
 
   // .abonements__item2-description
 
@@ -80,6 +86,7 @@
   &__button {
     display: flex;
     justify-content: center;
+    margin-top: 14px;
   }
 
   // .abonements__button-item
@@ -102,7 +109,7 @@
   }
 
   &__wrapper {
+    padding-bottom: 15px;
     background-color: #fff;
-    padding: 20px 46px;
   }
 }

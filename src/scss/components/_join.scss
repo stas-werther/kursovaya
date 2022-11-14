@@ -1,0 +1,193 @@
+.join {
+  padding: 80px 0;
+
+  // .join__title
+
+  &__title {
+    margin: 0;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: #272626;
+    margin-bottom: 115px;
+  }
+
+  // .join__card
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 228px;
+    row-gap: 188px;
+  }
+
+  // .join__card-item
+
+  &__card-item {
+    width: 100%;
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 15px;
+    background: #E67E22;
+    border: 2px solid #E67E22;
+    box-shadow: 0px 3px 10px #000000;
+    border-radius: 40px;
+  }
+
+  // .join__card-img
+
+  &__card-img {
+    margin-bottom: 15px;
+  }
+
+  // .join__card-title
+
+  &__card-title {
+    margin: 0;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #272626;
+    margin-bottom: 60px;
+  }
+}
+
+.card-list {
+  &__item {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #272626;
+    margin-bottom: 20px;
+  }
+}
+
+.wifi {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/wifi.svg);
+  }
+}
+
+.cardio {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/cardio.svg);
+  }
+}
+
+.bath {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/bath.svg);
+  }
+}
+
+.vegetarian {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/vegetarian.svg);
+  }
+}
+
+.diet {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/diets.svg);
+  }
+}
+
+.supplements {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/supplements.svg);
+  }
+}
+
+.ectomorph {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/ectomorph.svg);
+  }
+}
+
+.mesomorph {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/mesomorph.svg);
+  }
+}
+
+.endomorph {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/endomorph.svg);
+  }
+}
+
+.yoga {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/yoga.svg);
+  }
+}
+
+.zumba {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/zumba.svg);
+  }
+}
+
+.exercises {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/exercises.svg);
+  }
+}
