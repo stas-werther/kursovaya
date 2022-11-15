@@ -32,6 +32,10 @@
     column-gap: 226px;
     row-gap: 139px;
     justify-content: center;
+
+    @include small-tablet {
+      row-gap: 90px;
+    }
   }
 
   // .transform__card

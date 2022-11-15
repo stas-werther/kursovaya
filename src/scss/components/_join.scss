@@ -21,6 +21,10 @@
     flex-wrap: wrap;
     column-gap: 228px;
     row-gap: 188px;
+
+    @include small-tablet {
+      row-gap: 90px;
+    }
   }
 
   // .join__card-item
