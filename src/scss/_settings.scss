@@ -109,4 +109,8 @@ a {
 
 .logo {
   z-index: 50;
+
+  @include small-tablet {
+    width: 150px;
+  }
 }

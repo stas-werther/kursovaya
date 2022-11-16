@@ -1,15 +1,24 @@
 .header {
-  padding: 45px 0 0 0;
+  padding: 45px 0;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 5;
+
+  @include tablet {
+    padding: 25px 0;
+  }
+
   // .header__container
 
   &__container {
     display: flex;
     justify-content: space-between;
+
+    @include tablet {
+      align-items: center;
+    }
   }
 }
 
